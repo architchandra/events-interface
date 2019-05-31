@@ -13,63 +13,63 @@
     <main class="main">
       <h1>Events</h1>
       <div class="today-date">
-          <p>Tue, 28 May 2019</p>
-        </div>
-        <section class="today-events page-block">
-          <h2 class="page-block--title">Today's Events</h2>
+        <p>Tue, 28 May 2019</p>
+      </div>
+      <section class="today-events page-block">
+        <h2 class="page-block--title">Today's Events</h2>
+        <div class="block-event-item">
+          <p class="block-event-item--time">10:30 am - 1:00 pm</p>
+          <h5 class="block-event-item--title">CTOTalk with Walmart Labs</h5>
+        </div> <!-- block-event-item -->
+      </section> <!-- today-events-block -->
+      <section class="page-block upcoming-events">
+          <h2 class="page-block--title">Upcoming Events</h2>
           <div class="block-event-item">
-            <p class="block-event-item--time">10:30 am - 1:00 pm</p>
+            <p class="block-event-item--time">Fri, 31 May 2019 | 10:30 am - 1:00 pm</p>
             <h5 class="block-event-item--title">CTOTalk with Walmart Labs</h5>
-          </div>
-        </section>
-        <section class="page-block upcoming-events">
-            <h2 class="page-block--title">Upcoming Events</h2>
-            <div class="block-event-item">
-              <p class="block-event-item--time">Fri, 31 May 2019 | 10:30 am - 1:00 pm</p>
-              <h5 class="block-event-item--title">CTOTalk with Walmart Labs</h5>
-            </div>
-            <div class="block-event-item">
-              <p class="block-event-item--time">Sun, 2 June 2019 | <span class="block-event-item--type">Conference</span></p>
-              <h5 class="block-event-item--title">The Fifth Elephant 2019</h5>
-            </div>
-            <div class="block-event-item">
-              <p class="block-event-item--time">Sat, 8 June - Sun, 9 June 2019 | <span class="block-event-item--type">Conference</span></p>
-              <h5 class="block-event-item--title">Anthill Inside 2019</h5>
-            </div>
-        </section>
-        <section class="page-block calendar-mobile">
-          <div class="month-nav calendar-mobile--month-navigation">
-            <span class="month-nav--prev"><i class="fas fa-chevron-left"></i></span>
-            <span class="month-nav--current">May 2019</span>
-            <span class="month-nav--next"><i class="fas fa-chevron-right"></i></span>
-          </div>
-          <div class="calendar-mobile--month-past-events">
-            <button class="month-past-events--btn">See past events</button>
-          </div>
-          <div class="calendar-mobile--main m-cal">
-            <div class="m-cal--container">
-              <div class="m-cal--grid">
-                <div class="m-cal--grid-row row-event-present date-28">
-                  <div class="grid-row--date">Tue, 28</div>
-                  <div class="grid-row--event-box-container"></div>
+          </div> <!-- block-event-item -->
+          <div class="block-event-item">
+            <p class="block-event-item--time">Sun, 2 June 2019 | <span class="block-event-item--type">Conference</span></p>
+            <h5 class="block-event-item--title">The Fifth Elephant 2019</h5>
+          </div> <!-- block-event-item -->
+          <div class="block-event-item">
+            <p class="block-event-item--time">Sat, 8 June - Sun, 9 June 2019 | <span class="block-event-item--type">Conference</span></p>
+            <h5 class="block-event-item--title">Anthill Inside 2019</h5>
+          </div> <!-- block-event-item -->
+      </section> <!-- upcoming-events-block -->
+      <section class="page-block calendar-mobile">
+        <div class="month-nav calendar-mobile--month-navigation">
+          <span class="month-nav--prev"><i class="fas fa-chevron-left"></i></span>
+          <span class="month-nav--current">May 2019</span>
+          <span class="month-nav--next"><i class="fas fa-chevron-right"></i></span>
+        </div> <!-- calendar-mobile--month-navigation -->
+        <div class="calendar-mobile--month-past-events">
+          <button class="month-past-events--btn">See past events</button>
+        </div>
+        <div class="calendar-mobile--main m-cal">
+          <div class="m-cal--container">
+            <div class="m-cal--grid">
+              <div class="m-cal--grid-row row-event-present date-28">
+                <div class="grid-row--date">Tue, 28</div>
+                <div class="grid-row--event-box-container"></div>
+              </div> <!-- row-event-present -->
+              <div class="m-cal--grid-row row-event-gap">
+                <div class="grid-row--gap-notice">
+                  No events during 29 - 30 May 2019
                 </div>
-                <div class="m-cal--grid-row row-event-gap">
-                  <div class="grid-row--gap-notice">
-                    No events during 29 - 30 May 2019
-                  </div>
-                </div>
-                <div class="m-cal--grid-row row-event-present">
-                  <div class="grid-row--date">Fri, 28</div>
-                  <div class="grid-row--event-box-container date-31"></div>
-                </div>
-              </div>
-              <div class="m-cal--events-list"></div>
-            </div>
-          </div>
-        </section>
-    </main>
-    <aside class="sidebar"></aside>
-  </div>
+              </div> <!-- row-event-gap -->
+              <div class="m-cal--grid-row row-event-present">
+                <div class="grid-row--date">Fri, 28</div>
+                <div class="grid-row--event-box-container date-31"></div>
+              </div> <!-- row-event-present -->
+            </div> <!-- m-cal--grid -->
+            <div class="m-cal--events-list"></div> <!-- m-cal--events-list -->
+          </div> <!-- m-cal--container -->
+        </div> <!-- m-cal -->
+      </section> <!-- calendar-mobile-block -->
+    </main> <!-- main -->
+    <aside class="sidebar"></aside> <!-- sidebar -->
+  </div> <!-- container -->
   <script
         src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/106797a6d8.js"></script>
