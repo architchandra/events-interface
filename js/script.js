@@ -12,6 +12,9 @@ $(function()  {
       $('.event-details-container[data-event-id="may-fifth-elephant-2019"]').appendTo('.sidebar');
     }  else  {
       $('.event-details-container[data-event-id="may-fifth-elephant-2019"]').insertAfter('.calendar-mobile');
+      $('html, body').animate({
+        scrollTop: $('#calendar-mobile').offset().top + $('#calendar-mobile').height()
+      }, 500);
     }
     $('.event-details-container[data-event-id="may-fifth-elephant-2019"]').show();
   });
