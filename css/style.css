@@ -103,10 +103,65 @@ li  {
 }
 
 
-/* Mobile calendar */
+/* Mobile calendar month navigation */
 
 .month-nav  {
+  align-items: center;
+  display: flex;
   font-size: 1.25rem;
+  justify-content: center;
+  margin-bottom: 1rem;
   text-align: center;
 }
+
+.month-nav--current  {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.month-nav--prev,
+.month-nav--next  {
+  background-color: #f1f1f1;
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.fa-chevron-left,
+.fa-chevron-right  {
+  margin: 0.2rem 0.5rem;
+}
+
+
+/* Mobile calendar past events button */
+
+.calendar-mobile--month-past-events  {
+  text-align: center;
+}
+
+.month-past-events--btn  {
+  background-color: #f1f1f1;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+
+/* Mobile calendar grid */
+
+.m-cal--grid-row  {
+  align-items: center;
+  height: 3rem;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.m-cal--grid-row:last-child  {
+  margin-bottom: 0.4rem;
+}
+
+.grid-row--date  {
+  width: 20%;
+  margin-right: 0.5rem;
+}
+
 
