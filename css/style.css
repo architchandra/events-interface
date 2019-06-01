@@ -148,6 +148,10 @@ li  {
 
 /* Mobile calendar grid */
 
+.m-cal--grid  {
+  position: relative;
+}
+
 .m-cal--grid-row  {
   align-items: center;
   height: 3rem;
@@ -160,8 +164,53 @@ li  {
 }
 
 .grid-row--date  {
-  width: 20%;
+  width: 5rem;
   margin-right: 0.5rem;
+}
+
+.row-event-gap  {
+  color: #AAB2BD;
+  justify-content: flex-end;
+}
+
+.grid-row--gap-notice  {
+  align-items: center;
+  display: flex;
+  height: 3rem;
+  padding: 0.5rem;
+  width: calc(100% - 5.5rem);
+}
+
+
+/* Mobile calendar events */
+
+.m-cal-event  {
+  background-color: #4A89DC;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 0.5rem;
+  position: absolute;
+}
+
+.m-cal-event.m-cal-conference  {
+  background-color: #8CC152;
+}
+
+#may-ctotalk-with-walmart-labs  {
+  height: 3rem;
+  left: 5.5rem;
+  top: 0;
+  width: calc(100% - 5.5rem);
+}
+
+#may-fifth-elephant-2019  {
+  height: 6rem;
+  left: 5.5rem;
+  top: 6rem;
+  width: calc(100% - 5.5rem);
+  
 }
 
 
