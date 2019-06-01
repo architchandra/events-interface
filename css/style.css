@@ -184,7 +184,7 @@ li  {
 }
 
 .m-cal-event.m-cal-conference  {
-  background-color: #8CC152;
+  background-color: #ED5565;
 }
 
 #may-ctotalk-with-walmart-labs  {
@@ -256,19 +256,20 @@ li  {
 } */
 
 .event-details--url  {
-  background-color: #4A89DC;
+  background-color: #ED5565;
   border-radius: 2px;
   color: #fff;
   display: block;
+  font-size: 1.2rem;
   font-weight: 600;
-  padding: 1rem 1rem;
+  padding: 0.8rem 1rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .event-details--url:hover  {
-  background-color: rgb(74, 137, 220, 0.9);
+  background-color: rgba(237, 85, 101, 0.9);
 }
 
 
