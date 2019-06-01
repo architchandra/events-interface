@@ -259,6 +259,14 @@ li  {
   background-color: rgba(237, 85, 101, 0.8);
 }
 
+.single-event .event-details--url  {
+  background-color: #4a89dc;
+}
+
+.single-event .event-details--url:hover  {
+  background-color: rgba(74, 137, 220, 0.8);
+}
+
 
 /* Past events list section */
 
@@ -283,7 +291,7 @@ li  {
 }
 
 
-@media all and (min-width: 768px)  {
+@media all and (min-width: 992px)  {
 
   /* Container and associated layout */
 
