@@ -110,7 +110,7 @@ li  {
   display: flex;
   font-size: 1.25rem;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
@@ -133,22 +133,10 @@ li  {
 }
 
 
-/* Mobile calendar past events button */
-
-.calendar-mobile--month-past-events  {
-  text-align: center;
-}
-
-.month-past-events--btn  {
-  background-color: #f1f1f1;
-  padding: 0.5rem 1rem;
-  border: none;
-}
-
-
 /* Mobile calendar grid */
 
 .m-cal--grid  {
+  margin-bottom: 2rem;
   position: relative;
 }
 
@@ -210,7 +198,29 @@ li  {
   left: 5.5rem;
   top: 6rem;
   width: calc(100% - 5.5rem);
-  
 }
 
+
+/* Mobile calendar past events button */
+
+.calendar-mobile--month-past-events  {
+  text-align: center;
+}
+
+.month-past-events--btn  {
+  background-color: #f1f1f1;
+  color: #696969;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 1rem 2rem;
+  border: none;
+  width: 100%;
+}
+
+
+/* Event details section */
+
+.event-details--title  {
+  margin-bottom: 1.2rem;
+}
 
