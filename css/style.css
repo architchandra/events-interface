@@ -85,6 +85,10 @@ li  {
   margin-bottom: 0;
 }
 
+.block-event-item--time  {
+  margin-bottom: 0.2rem;
+}
+
 
 /* Container and associated layout */
 
@@ -137,7 +141,7 @@ li  {
 /* Mobile calendar grid */
 
 .m-cal--grid  {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   position: relative;
 }
 
@@ -201,25 +205,6 @@ li  {
   width: calc(100% - 5.5rem);
 }
 
-
-/* Mobile calendar past events button */
-
-.calendar-mobile--month-past-events  {
-  text-align: center;
-}
-
-.month-past-events--btn  {
-  background-color: #f1f1f1;
-  color: #696969;
-  cursor: pointer;
-  font-size: 1.2em;
-  padding: 1rem 2rem;
-  border: none;
-  border-radius: 2px;
-  width: 100%;
-}
-
-
 /* Event details section */
 
 .event-details--title  {
@@ -238,6 +223,7 @@ li  {
 
 .event-details--location  {
   color: #696969;
+  margin-bottom: 1rem;
 }
 
 .event-details--map  {
@@ -250,10 +236,6 @@ li  {
 .event-details--map img  {
   width: 100%;
 }
-
-/* .event-details--url  {
-  margin-bottom: 0;
-} */
 
 .event-details--url  {
   background-color: #ED5565;
@@ -271,6 +253,26 @@ li  {
 .event-details--url:hover  {
   background-color: rgba(237, 85, 101, 0.9);
 }
+
+
+/* Past events list section */
+
+.past-events--see-more  {
+  text-align: center;
+}
+
+.past-events--see-more-btn  {
+  background-color: #f1f1f1;
+  color: #696969;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2px;
+  width: 100%;
+}
+
+
 
 
 
